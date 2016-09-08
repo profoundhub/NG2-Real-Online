@@ -1,7 +1,7 @@
 {
-  "name": "heroku-node-demo-app",
-  "version": "0.2.5",
-  "description": "Sample Website: Node App to Heroku",
+  "name": "ng2-real-online",
+  "version": "1.2.5",
+  "description": "Sample Website: Angular 2 App to Heroku",
   "engines": {
     "node": "5.9.1"
   },
@@ -15,7 +15,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/profoundhub/OpenSpaces/"
+    "url": "https://github.com/profoundhub/NG2-Real-Online/"
   },
   "keywords": [
     "node",
