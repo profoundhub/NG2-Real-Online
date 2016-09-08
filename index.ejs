@@ -36,6 +36,19 @@
 
 <!--[if IE 6]><link href="default_ie6.css" rel="stylesheet" type="text/css" /><![endif]-->
 
+<script>
+		 System.config({
+			 transpiler: 'typescript',
+			 typescriptOptions: { emitDecoratorMetadata: true },
+			 packages: {
+				 'api': {defaultExtension: 'ts'},
+				 'app': {defaultExtension: 'ts'}
+			 }
+		 });
+	 System.import('app/main')
+				 .then(null, console.error.bind(console));
+ </script>
+
 </head>
 <body>
 <div id="header-wrapper">
@@ -45,7 +58,7 @@
 		</div>
 		<div id="menu">
 			<ul>
-				<li class="active"><a href="#" accesskey="1" title="">Home Page</a></li>
+				<li class="active"><a href="#" accesskey="1" title="">Home</a></li>
 				<li><a href="#" accesskey="2" title="">Clients</a></li>
 				<li><a href="#" accesskey="3" title="">About</a></li>
 				<li><a href="#" accesskey="4" title="">Careers</a></li>
@@ -108,7 +121,7 @@
 <div id="welcome-wrapper">
 	<div id="welcome" class="container">
 		<div class="title">
-			<h2>Welcome to our website</h2>
+			<h2>Welcome to our Website</h2>
 		</div>
 		<p>This is <strong>Daniel </strong>, Daniel Daniel Daniel .</p>
 	</div>
