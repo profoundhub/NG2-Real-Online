@@ -1,4 +1,4 @@
-# Example NG Site: Really Online
+# Example NG2 Site: Really Online
 
 Demo Site: Real NG2 Site
 
